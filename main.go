@@ -1,16 +1,20 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"travel_planning_assistant/core"
+	"travel_planning_assistant/global"
+)
 
 //go:generate go mod tidy -go=1.19
 //go:generate go mod download
 
+// @title                       TravelPlanningAssistant API
+// @version                     0.0.1
+// @description                 This is a sample Server pets
+// @securityDefinitions.apikey  ApiKeyAuth
+// @in                          header
+// @name                        x-token
+// @BasePath                    /
 func main() {
-	r := gin.Default()
-	r.GET("api", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"result": "hello",
-		})
-	})
-	r.Run(":8888")
+	global.TPA_VP = core.Viper() // 初始化Viper
 }
