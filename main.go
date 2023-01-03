@@ -17,4 +17,5 @@ import (
 // @BasePath                    /
 func main() {
 	global.TPA_VP = core.Viper() // 初始化Viper
+	global.TPA_LG = core.Zap()   // 初始化zap日志库
 }
