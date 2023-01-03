@@ -18,6 +18,20 @@ func Gorm() *gorm.DB {
 	return GormMysql()
 }
 
+// MysqlTables
+//@function: MysqlTables
+//@description: 注册数据库表专用
+//@param: db *gorm.DB
+
+func MysqlTables(db *gorm.DB) {
+	err := db.AutoMigrate()
+	if err != nil {
+		global.TPA_LG.Error("register table failed", zap.Any("err", err))
+		os.Exit(0)
+	}
+	global.TPA_LG.Info("register table success")
+}
+
 //@function: GormMysql
 //@description: 初始化Mysql数据库
 //@return: *gorm.DB
