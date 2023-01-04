@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/viper"
 	"os"
 	"path/filepath"
-	"travel_planning_assistant/global"
-	"travel_planning_assistant/utils"
+	"project/global"
+	"project/utils"
 )
 
 func Viper(path ...string) *viper.Viper {

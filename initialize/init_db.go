@@ -3,8 +3,8 @@ package initialize
 import (
 	"go.uber.org/zap"
 	"os"
-	"travel_planning_assistant/global"
-	"travel_planning_assistant/model/system"
+	"project/global"
+	"project/model/system"
 )
 
 // InitDB InitDB

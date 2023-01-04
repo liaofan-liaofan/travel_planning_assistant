@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/singleflight"
 	"gorm.io/gorm"
-	"travel_planning_assistant/config"
+	"project/config"
 )
 
 var (

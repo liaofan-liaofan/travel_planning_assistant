@@ -6,8 +6,8 @@ import (
 	adapter "github.com/casbin/gorm-adapter/v3"
 	"go.uber.org/zap"
 	"os"
+	"project/global"
 	"strings"
-	"travel_planning_assistant/global"
 )
 
 //@function: Casbin

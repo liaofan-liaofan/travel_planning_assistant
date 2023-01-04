@@ -6,8 +6,8 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"os"
-	"travel_planning_assistant/global"
-	"travel_planning_assistant/initialize/internal"
+	"project/global"
+	"project/initialize/internal"
 )
 
 //@function: Gorm
