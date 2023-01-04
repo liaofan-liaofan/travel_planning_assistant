@@ -5,8 +5,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"os"
 	"path"
+	"project/global"
 	"time"
-	"travel_planning_assistant/global"
 )
 
 func GetWriteSyncer() (zapcore.WriteSyncer, error) {

@@ -5,9 +5,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"
+	"project/global"
+	"project/utils"
 	"time"
-	"travel_planning_assistant/global"
-	"travel_planning_assistant/utils"
 )
 
 var level zapcore.Level

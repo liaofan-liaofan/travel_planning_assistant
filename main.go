@@ -2,9 +2,9 @@ package main
 
 import (
 	"database/sql"
-	"travel_planning_assistant/core"
-	"travel_planning_assistant/global"
-	"travel_planning_assistant/initialize"
+	"project/core"
+	"project/global"
+	"project/initialize"
 )
 
 //go:generate go mod tidy -go=1.19

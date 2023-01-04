@@ -5,7 +5,7 @@ import (
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
 	"os"
-	"travel_planning_assistant/global"
+	"project/global"
 )
 
 func Redis() *redis.Client {

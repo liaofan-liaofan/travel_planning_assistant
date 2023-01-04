@@ -7,8 +7,8 @@ import (
 	"gorm.io/gorm/utils"
 	"log"
 	"os"
+	"project/global"
 	"time"
-	"travel_planning_assistant/global"
 )
 
 type config struct {
