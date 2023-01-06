@@ -18,7 +18,27 @@ func NotEmpty() string {
 	return "notEmpty"
 }
 
-//@author: [piexlmax](https://github.com/piexlmax)
+//@author: [liaofan](https://github.com/liaofan-liaofan)
+//@function: Ge
+//@description: 大于等于入参(>=) 如果为string array Slice则为长度比较 如果是 int uint float 则为数值比较
+//@param: mark string
+//@return: string
+
+func Ge(mark string) string {
+	return "ge=" + mark
+}
+
+//@author: [liaofan](https://github.com/liaofan-liaofan)
+//@function: Gt
+//@description: 大于入参(>) 如果为string array Slice则为长度比较 如果是 int uint float 则为数值比较
+//@param: mark string
+//@return: string
+
+func Gt(mark string) string {
+	return "gt=" + mark
+}
+
+//@author: [liaofan](https://github.com/liaofan-liaofan)
 //@function: Verify
 //@description: 校验方法
 //@param: st interface{}, roleMap Rules(入参实例，规则map)

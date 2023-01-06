@@ -8,6 +8,7 @@ import (
 	"os"
 	"project/global"
 	"project/initialize/internal"
+	"project/model/system"
 )
 
 //@function: Gorm
@@ -24,7 +25,17 @@ func Gorm() *gorm.DB {
 //@param: db *gorm.DB
 
 func MysqlTables(db *gorm.DB) {
-	err := db.AutoMigrate()
+	err := db.AutoMigrate(
+		system.SysUser{},
+		system.SysAuthority{},
+		system.SysApi{},
+		system.SysBaseMenu{},
+		system.SysBaseMenuParameter{},
+		system.JwtBlacklist{},
+		system.SysDept{},
+		system.SysOperationRecord{},
+		system.SysFileUploadAndDownload{},
+	)
 	if err != nil {
 		global.TPA_LG.Error("register table failed", zap.Any("err", err))
 		os.Exit(0)

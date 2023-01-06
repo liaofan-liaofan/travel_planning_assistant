@@ -8,9 +8,9 @@ import (
 type SysUser struct {
 	global.TPA_MODEL
 	UUID        uuid.UUID      `json:"uuid" gorm:"not null;comment:用户UUID"`
-	Username    string         `json:"userName" gorm:"not null;comment:用户登录名"`                              // 用户登录名
-	Password    string         `json:"-"  gorm:"not null;comment:用户登录密码"`                                  // 用户登录密码
-	NickName    string         `json:"nickName" gorm:"not null;default:系统用户;comment:用户昵称"`               // 用户昵称
+	Username    string         `json:"userName" gorm:"not null;comment:用户登录名"`                               // 用户登录名
+	Password    string         `json:"-"  gorm:"not null;comment:用户登录密码"`                                    // 用户登录密码
+	NickName    string         `json:"nickName" gorm:"not null;default:系统用户;comment:用户昵称"`                   // 用户昵称
 	HeaderImg   string         `json:"headerImg" gorm:"not null;default:uploads/file/head.jpg;comment:用户头像"` // 用户头像
 	Email       string         `json:"email" gorm:"not null;comment:用户邮箱"`
 	Phone       string         `json:"phone" gorm:"comment:用户手机号"`
@@ -22,4 +22,9 @@ type SysUser struct {
 	Dept        SysDept        `json:"dept" gorm:"foreignKey:DeptId;references:ID;"`
 	Authority   SysAuthority   `json:"authority" gorm:"foreignKey:AuthorityId;references:AuthorityId;comment:用户角色"`
 	Authorities []SysAuthority `json:"authorities" gorm:"many2many:sys_user_authority;"`
+}
+
+type ExcelInfo struct {
+	FileName string    `json:"fileName"` // 文件名
+	InfoList []SysUser `json:"infoList"`
 }
