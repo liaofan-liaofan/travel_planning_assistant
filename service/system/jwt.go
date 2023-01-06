@@ -105,3 +105,13 @@ func (jwtService *JwtService) GetRedisUserInfo(uuid string) (redisUserInfo reque
 	}
 	return
 }
+
+//@author: [liaofan](https://github.com/liaofan-liaofan)
+//@function: DelRedisUserInfo
+//@description: 从redis获取用户信息
+//@param: uuid string
+//@return: err error
+
+func (jwtService *JwtService) DelRedisUserInfo(uuid string) (err error) {
+	return global.TPA_REDIS.HDel(context.Background(), uuid).Err()
+}

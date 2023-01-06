@@ -15,4 +15,6 @@ type Server struct {
 	Redis Redis `mapstructure:"redis" json:"redis" yaml:"redis"`
 	// oss
 	Local Local `mapstructure:"local" json:"local" yaml:"local"`
+	Excel Excel `mapstructure:"excel" json:"excel" yaml:"excel"`
+	Qiniu Qiniu `mapstructure:"qiniu" json:"qiniu" yaml:"qiniu"`
 }
