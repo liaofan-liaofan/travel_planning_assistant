@@ -7,3 +7,62 @@
 [RZ-WORK-FLOW]2023/01/06 - 14:18:48.243	[34minfo[0m	use middleware cors
 [RZ-WORK-FLOW]2023/01/06 - 14:18:48.244	[34minfo[0m	register swagger handler
 [RZ-WORK-FLOW]2023/01/06 - 14:18:48.860	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/06 - 15:14:08.424	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/06 - 15:14:15.081	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/06 - 15:14:15.081	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/06 - 15:14:15.082	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/06 - 15:14:15.082	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/06 - 15:14:15.083	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/06 - 15:14:15.097	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/06 - 15:19:27.130	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/06 - 15:19:34.115	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/06 - 15:19:34.115	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/06 - 15:19:34.117	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/06 - 15:19:34.117	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/06 - 15:19:34.117	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/06 - 15:19:34.131	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/06 - 15:19:37.386	[34minfo[0m	/swagger/index.html	{"requestId": "XQM3P5dXZBwATbCA77v1p", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.000037}
+[RZ-WORK-FLOW]2023/01/06 - 15:19:37.386	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:19:37.793	[34minfo[0m	/favicon.ico	{"requestId": "02zC8fAfEGvQcquCm0gF0", "status": 404, "method": "GET", "path": "/favicon.ico", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.0001561}
+[RZ-WORK-FLOW]2023/01/06 - 15:19:37.793	[34minfo[0m	/favicon.ico	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:20:31.573	[34minfo[0m	/swagger/index.html	{"requestId": "fh_FwlNU-7w-2uP5wI9J0", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/01/06 - 15:20:31.573	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:20:32.589	[34minfo[0m	/swagger/index.html	{"requestId": "DxUMQDK-mw0U2TSSU8oH9", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.0002259}
+[RZ-WORK-FLOW]2023/01/06 - 15:20:32.589	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:07.524	[34minfo[0m	/swagger/index.html	{"requestId": "MpuXm6nBJzrEUdqBClaX7", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.0004537}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:07.524	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:15.356	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:22.443	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/06 - 15:24:22.444	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/06 - 15:24:22.444	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/06 - 15:24:22.444	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/06 - 15:24:22.445	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/06 - 15:24:22.461	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:23.717	[34minfo[0m	/swagger/index.html	{"requestId": "QfwIPKkvHdBEy3IDu9yZE", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.0004848}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:23.717	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:25.722	[34minfo[0m	/swagger/index.html	{"requestId": "mBzYvUbrlXllzmMpWwkm1", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:25.722	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:40.856	[34minfo[0m	/swagger/index.html	{"requestId": "9UbaKVuH40Sidd0Yy3d5R", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:40.856	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:24:53.275	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:00.108	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/06 - 15:25:00.109	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/06 - 15:25:00.110	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/06 - 15:25:00.110	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/06 - 15:25:00.111	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/06 - 15:25:00.127	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:18.791	[34minfo[0m	/swagger/	{"requestId": "gA2N1Xb7_0kP87lQMFhWh", "status": 404, "method": "GET", "path": "/swagger/", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.0000529}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:18.791	[34minfo[0m	/swagger/	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:22.010	[34minfo[0m	/swagger	{"requestId": "ngG9nfRRRcpcFCy6Ou7so", "status": 404, "method": "GET", "path": "/swagger", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:22.010	[34minfo[0m	/swagger	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:27.045	[34minfo[0m	/swagger/index.html	{"requestId": "M6vas_WCuBay1S72wFhVc", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0.0001935}
+[RZ-WORK-FLOW]2023/01/06 - 15:25:27.045	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 15:26:54.915	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/06 - 15:27:01.347	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/06 - 15:27:01.347	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/06 - 15:27:01.347	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/06 - 15:27:01.347	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/06 - 15:27:01.348	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/06 - 15:27:01.363	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/06 - 15:27:25.039	[34minfo[0m	/swagger/index.html	{"requestId": "pMhVnGwoo4Y-DWewVzATe", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/01/06 - 15:27:25.039	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
