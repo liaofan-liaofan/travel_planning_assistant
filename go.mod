@@ -32,6 +32,7 @@ require (
 	github.com/PuerkitoBio/purell v1.2.0 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/chzyer/readline v1.5.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
@@ -51,9 +52,11 @@ require (
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
+	github.com/google/pprof v0.0.0-20221219190121-3cb0bae90811 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gookit/color v1.3.6 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/ianlancetaylor/demangle v0.0.0-20220517205856-0058ec4f073c // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.13.0 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect

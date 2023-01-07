@@ -2,9 +2,11 @@ package core
 
 import (
 	"fmt"
+	zaprotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"
+	"path"
 	"project/global"
 	"project/utils"
 	"time"
@@ -46,9 +48,21 @@ func Zap() (logger *zap.Logger) {
 	return logger
 }
 
+func GetWriteSyncer() (zapcore.WriteSyncer, error) {
+	fileWriter, err := zaprotatelogs.New(
+		path.Join(global.TPA_CONFIG.Zap.Director, "%Y-%m-%d.log"),
+		zaprotatelogs.WithMaxAge(7*24*time.Hour),
+		zaprotatelogs.WithRotationTime(24*time.Hour),
+	)
+	if global.TPA_CONFIG.Zap.LogInConsole {
+		return zapcore.NewMultiWriteSyncer(zapcore.AddSync(os.Stdout), zapcore.AddSync(fileWriter)), err
+	}
+	return zapcore.AddSync(fileWriter), err
+}
+
 // getEncoderCore 获取Encoder的zapcore.Core
 func getEncoderCore() (core zapcore.Core) {
-	writer, err := utils.GetWriteSyncer() // 使用file-rotatelogs进行日志分割
+	writer, err := GetWriteSyncer() // 使用file-rotatelogs进行日志分割
 	if err != nil {
 		fmt.Printf("Get Write Syncer Failed err:%v", err.Error())
 		return
