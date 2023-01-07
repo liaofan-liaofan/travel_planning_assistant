@@ -17,7 +17,7 @@ func RunWindowsServer() {
 	router.Static("/from-generator", "./resource/page")
 
 	address := fmt.Sprintf(":%d", global.TPA_CONFIG.System.Addr)
-	s := initServer(address, router)
+	s := InitServer(address, router)
 
 	time.Sleep(10 * time.Millisecond)
 	global.TPA_LG.Info("server run success on", zap.String("address", address))

@@ -2,9 +2,14 @@ package main
 
 import (
 	"database/sql"
+	"log"
+	"net/http"
+	_ "net/http/pprof"
+	"os"
 	"project/core"
 	"project/global"
 	"project/initialize"
+	"runtime/pprof"
 )
 
 //go:generate go mod tidy -go=1.19
@@ -18,6 +23,18 @@ import (
 // @name                        x-token
 // @BasePath                    /
 func main() {
+	go func() {
+		log.Println(http.ListenAndServe("localhost:6060", nil))
+	}()
+
+	f, err := os.Create("cpu.prof")
+	if err != nil {
+		log.Fatal("could not create CPU profile: ", err)
+	}
+	if err := pprof.StartCPUProfile(f); err != nil {
+		log.Fatal("could not start CPU profile: ", err)
+	}
+	defer pprof.StopCPUProfile()
 	global.TPA_VP = core.Viper()            // 初始化Viper
 	global.TPA_LG = core.Zap()              // 初始化zap日志库
 	global.TPA_DB = initialize.Gorm()       // gorm连接数据库
@@ -33,4 +50,8 @@ func main() {
 		}(db)
 	}
 	core.RunWindowsServer()
+	pprof.StopCPUProfile()
+	if err := pprof.WriteHeapProfile(f); err != nil {
+		log.Fatal("could not write memory profile: ", err)
+	}
 }

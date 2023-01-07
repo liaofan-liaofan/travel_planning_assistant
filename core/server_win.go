@@ -8,8 +8,8 @@ import (
 	"time"
 )
 
-// 初始化服务对象
-func initServer(address string, router *gin.Engine) server {
+// InitServer 初始化服务对象
+func InitServer(address string, router *gin.Engine) server {
 	return &http.Server{
 		Addr:           address,
 		Handler:        router,

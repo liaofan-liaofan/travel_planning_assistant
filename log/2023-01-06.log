@@ -66,3 +66,10 @@
 [RZ-WORK-FLOW]2023/01/06 - 15:27:01.363	[34minfo[0m	server run success on	{"address": ":8888"}
 [RZ-WORK-FLOW]2023/01/06 - 15:27:25.039	[34minfo[0m	/swagger/index.html	{"requestId": "pMhVnGwoo4Y-DWewVzATe", "status": 404, "method": "GET", "path": "/swagger/index.html", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36", "errors": "", "cost": 0}
 [RZ-WORK-FLOW]2023/01/06 - 15:27:25.039	[34minfo[0m	/swagger/index.html	{"code": 0, "msg": "", "data": null}
+[RZ-WORK-FLOW]2023/01/06 - 21:34:20.907	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/06 - 21:34:27.843	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/06 - 21:34:27.844	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/06 - 21:34:27.845	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/06 - 21:34:27.845	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/06 - 21:34:27.845	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/06 - 21:34:27.861	[34minfo[0m	server run success on	{"address": ":8888"}
