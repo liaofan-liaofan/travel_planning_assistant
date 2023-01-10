@@ -31,7 +31,6 @@ func (b *BaseApi) Captcha(c *gin.Context) {
 	cp := base64Captcha.NewCaptcha(driver, store)
 	global.TPA_LG.Info("requestId获取成功", utils.GetRequestID(c))
 	if id, b64s, err := cp.Generate(); err != nil {
-
 		global.TPA_LG.Error("验证码获取失败!", zap.Any("err", err))
 		response.FailWithMessage("验证码获取失败", c)
 	} else {
