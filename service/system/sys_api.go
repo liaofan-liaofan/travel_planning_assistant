@@ -130,7 +130,7 @@ func (apiService *ApiService) GetAllApis() (err error, apis []system.SysApi) {
 	return
 }
 
-// DeleteApisByIds @author: [chenguanglan](https://github.com/sFFbLL)
+// DeleteApisByIds @author: [liaofan](https://github.com/liaofan-liaofan)
 // @function: DeleteApis
 // @description: 删除选中API
 // @param: apis []model.SysApi

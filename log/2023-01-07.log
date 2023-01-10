@@ -5,3 +5,31 @@
 [RZ-WORK-FLOW]2023/01/07 - 09:00:51.467	[34minfo[0m	use middleware cors
 [RZ-WORK-FLOW]2023/01/07 - 09:00:51.467	[34minfo[0m	register swagger handler
 [RZ-WORK-FLOW]2023/01/07 - 09:00:51.481	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/07 - 09:11:08.032	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/07 - 09:11:15.050	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/07 - 09:11:15.051	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/07 - 09:11:15.051	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/07 - 09:11:15.051	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/07 - 09:11:15.052	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/07 - 09:11:15.067	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/07 - 09:17:06.731	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/07 - 09:17:13.599	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/07 - 09:17:13.600	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/07 - 09:17:13.600	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/07 - 09:17:13.601	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/07 - 09:17:13.601	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/07 - 09:17:13.617	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/07 - 09:18:26.025	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/07 - 09:18:33.441	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/07 - 09:18:33.441	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/07 - 09:18:33.442	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/07 - 09:18:33.442	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/07 - 09:18:33.443	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/07 - 09:18:33.458	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/01/07 - 09:39:29.154	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/01/07 - 09:39:35.680	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/01/07 - 09:39:35.680	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/01/07 - 09:39:35.681	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/01/07 - 09:39:35.681	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/01/07 - 09:39:35.681	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/01/07 - 09:39:35.698	[34minfo[0m	server run success on	{"address": ":8888"}
