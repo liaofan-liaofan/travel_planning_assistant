@@ -63,6 +63,12 @@ mysql:
   log-mode: 'warn'
   log-zap: false
 
+# wxlogin connect configuration
+wxlogin:
+  grantype: ''
+  appid: ''
+  secret: ''
+
 # local configuration
 local:
   path: 'uploads/file'

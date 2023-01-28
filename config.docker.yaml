@@ -63,6 +63,12 @@ mysql:
   log-mode: 'debug'
   log-zap: false
 
+# wxlogin connect configuration
+wxlogin:
+  grantype: 'authorization_code'
+  appid: 'wx0f0e45541264d2a4'
+  secret: '9a799f3c7aff930545651f92a181f5c1'
+
 # local configuration
 local:
   path: 'uploads/file'
