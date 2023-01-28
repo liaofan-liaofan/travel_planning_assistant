@@ -17,4 +17,7 @@ type Server struct {
 	Local Local `mapstructure:"local" json:"local" yaml:"local"`
 	Excel Excel `mapstructure:"excel" json:"excel" yaml:"excel"`
 	Qiniu Qiniu `mapstructure:"qiniu" json:"qiniu" yaml:"qiniu"`
+
+	// 前台部分
+	WxLogin Wxlogin `mapstructure:"wxlogin" json:"wxlogin" yaml:"wxlogin"`
 }
