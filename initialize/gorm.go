@@ -9,6 +9,7 @@ import (
 	"project/global"
 	"project/initialize/internal"
 	"project/model/system"
+	"project/model/wechat"
 )
 
 //@function: Gorm
@@ -35,6 +36,11 @@ func MysqlTables(db *gorm.DB) {
 		system.SysDept{},
 		system.SysOperationRecord{},
 		system.SysFileUploadAndDownload{},
+		wechat.WcUserInfo{},
+		wechat.WcTravelRecords{},
+		wechat.WcFavorites{},
+		wechat.WcLocations{},
+		wechat.WcTravelCircles{},
 	)
 	if err != nil {
 		global.TPA_LG.Error("register table failed", zap.Any("err", err))

@@ -31,7 +31,7 @@ func InitDB() {
 	global.TPA_LG.Info("init table data success")
 }
 
-//@author: [chenguanglan](https://github.com/sFFbLL)
+//@author: [liaofan](https://github.com/liaofan-liaofan)
 //@function: initDB
 //@description: 初始化超级管理员数据
 //@param: InitDBFunctions system.InitDBFunc 初始化方法

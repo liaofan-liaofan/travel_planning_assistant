@@ -9,7 +9,7 @@ type UserLogin struct{}
 
 func (u *UserLogin) WxLogin(Router *gin.RouterGroup) {
 	baseRouter := Router.Group("wx")
-	var baseApi = v1.ApiGroupApp.FrontDesk.UserLogin
+	var baseApi = v1.ApiGroupApp.Wechat.UserLogin
 	{
 		baseRouter.POST("login", baseApi.Login) // 微信授权登录
 	}
