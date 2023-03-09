@@ -6,8 +6,8 @@ import (
 )
 
 type RouterGroup struct {
-	System    system.RouterGroup
-	FrontDesk wechat.RouterGroup
+	System system.RouterGroup
+	Wechat wechat.RouterGroup
 }
 
 var RouterGroupApp = new(RouterGroup)

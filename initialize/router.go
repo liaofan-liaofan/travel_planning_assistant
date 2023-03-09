@@ -23,8 +23,8 @@ func Routers() *gin.Engine {
 	// 方便统一添加路由组前缀 多服务器上线使用
 
 	// 获取路由组实例
-	systemRouter := router.RouterGroupApp.System       // 系统后台api
-	FrontDeskRouter := router.RouterGroupApp.FrontDesk // 前台api
+	systemRouter := router.RouterGroupApp.System    // 系统后台api
+	FrontDeskRouter := router.RouterGroupApp.Wechat // 前台api
 	PublicGroup := Router.Group("api")
 	{
 		systemRouter.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权

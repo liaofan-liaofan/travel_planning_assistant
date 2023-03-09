@@ -5,6 +5,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"gorm.io/gorm/schema"
 	"os"
 	"project/global"
 	"project/initialize/internal"
@@ -85,7 +86,9 @@ func GormMysql() *gorm.DB {
 //@return: *gorm.Config
 
 func gormConfig() *gorm.Config {
-	config := &gorm.Config{DisableForeignKeyConstraintWhenMigrating: true}
+	config := &gorm.Config{DisableForeignKeyConstraintWhenMigrating: true, NamingStrategy: schema.NamingStrategy{
+		SingularTable: true, // 使用单数表名
+	}}
 	switch global.TPA_CONFIG.Mysql.LogMode {
 	case "silent", "Silent":
 		config.Logger = internal.Default.LogMode(logger.Silent)

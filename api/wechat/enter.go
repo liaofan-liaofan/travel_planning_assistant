@@ -7,3 +7,4 @@ type ApiGroup struct {
 }
 
 var loginService = service.ServiceGroupApp.WechatServiceGroup.UserLogin
+var jwtService = service.ServiceGroupApp.SystemServiceGroup.JwtService
