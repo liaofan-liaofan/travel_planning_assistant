@@ -1,0 +1,81 @@
+[RZ-WORK-FLOW]2023/03/05 - 15:25:05.726	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 15:25:14.490	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 15:25:14.491	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 15:25:14.491	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 15:25:14.492	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 15:25:14.492	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 15:25:14.508	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 15:45:10.562	[34minfo[0m	/api/wx/login	{"requestId": "6mAPfohgWC8C-H5-iA_fU", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"043z5T000I4BzP18B8300StpQe0z5T0k\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0.0005193}
+[RZ-WORK-FLOW]2023/03/05 - 15:45:11.125	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "操作成功", "data": {"id":0,"user_name":"超"}}
+[RZ-WORK-FLOW]2023/03/05 - 15:46:03.300	[34minfo[0m	/api/wx/login	{"requestId": "DCX1lALhjy2OkxxSmNxxF", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"063prcGa1tQhUE0pGpHa14BdLQ1prcGl\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 15:46:03.551	[31merror[0m	获取失败!	{"err": "sql: expected 11 destination arguments in Scan, not 1", "requestId": "DCX1lALhjy2OkxxSmNxxF"}
+[RZ-WORK-FLOW]2023/03/05 - 15:46:03.551	[34minfo[0m	/api/wx/login	{"code": 7, "msg": "获取失败", "data": {}}
+[RZ-WORK-FLOW]2023/03/05 - 15:47:10.969	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 15:47:21.345	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 15:47:21.346	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 15:47:21.347	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 15:47:21.347	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 15:47:21.347	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 15:47:21.362	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 15:47:22.654	[34minfo[0m	/api/wx/login	{"requestId": "TCvcek9n3M516gPruU89x", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"053ta61w344Zc03x7Q3w3OFl944ta61d\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 15:47:22.995	[31merror[0m	获取失败!	{"err": "model value required", "requestId": "TCvcek9n3M516gPruU89x"}
+[RZ-WORK-FLOW]2023/03/05 - 15:47:22.996	[34minfo[0m	/api/wx/login	{"code": 7, "msg": "获取失败", "data": {}}
+[RZ-WORK-FLOW]2023/03/05 - 15:49:30.367	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 15:49:39.751	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 15:49:39.751	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 15:49:39.752	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 15:49:39.752	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 15:49:39.752	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 15:49:39.768	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 15:49:44.106	[34minfo[0m	/api/wx/login	{"requestId": "XiKLNGqZ6sFKfp8HSrgjN", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"023nj61w3wfZc03MKr1w3IkY422nj61q\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 15:49:44.463	[31merror[0m	获取失败!	{"err": "unsupported data type: wc_user_info: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")", "requestId": "XiKLNGqZ6sFKfp8HSrgjN"}
+[RZ-WORK-FLOW]2023/03/05 - 15:49:44.463	[34minfo[0m	/api/wx/login	{"code": 7, "msg": "获取失败", "data": {}}
+[RZ-WORK-FLOW]2023/03/05 - 15:50:09.999	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 15:50:18.851	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 15:50:18.852	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 15:50:18.853	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 15:50:18.853	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 15:50:18.853	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 15:50:18.867	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 15:50:20.715	[34minfo[0m	/api/wx/login	{"requestId": "2g7go4SzaUL3KGVrJgmaP", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"033y900w3To5e033vT2w3NY9HY1y900Y\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 15:50:21.383	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "操作成功", "data": {"id":1,"user_name":"超"}}
+[RZ-WORK-FLOW]2023/03/05 - 15:53:46.369	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 15:53:56.102	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 15:53:56.103	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 15:53:56.104	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 15:53:56.104	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 15:53:56.104	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 15:53:56.120	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 15:53:58.036	[34minfo[0m	/api/wx/login	{"requestId": "xfRd2W3MxoQrBBFsIhpeQ", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"063lYtGa1SnfSE0FfFGa1KPNBZ3lYtGY\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 15:53:58.557	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "操作成功", "data": {"id":1,"user_name":"超"}}
+[RZ-WORK-FLOW]2023/03/05 - 15:57:52.822	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 15:58:01.658	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 15:58:01.659	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 15:58:01.660	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 15:58:01.660	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 15:58:01.660	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 15:58:01.675	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 15:58:17.216	[34minfo[0m	/api/wx/login	{"requestId": "z4QSJf8TGBUL1bKAth9yG", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"0831K4000h4FyP1WFQ000CBFsE41K40l\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0.0005436}
+[RZ-WORK-FLOW]2023/03/05 - 15:58:17.772	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "操作成功", "data": {"id":1,"user_name":"超"}}
+[RZ-WORK-FLOW]2023/03/05 - 15:59:26.685	[34minfo[0m	/api/wx/login	{"requestId": "Yp3ZVU9UljZL7Bci6MY5Y", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"003z3s100GjPxP1ldn4006DY7U1z3s15\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 15:59:27.176	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "操作成功", "data": {"id":1,"user_name":"超"}}
+[RZ-WORK-FLOW]2023/03/05 - 16:12:43.669	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 16:12:54.981	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 16:12:54.981	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 16:12:54.982	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 16:12:54.982	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 16:12:54.983	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 16:12:54.998	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 16:15:42.980	[34minfo[0m	/api/wx/login	{"requestId": "3DgrLFNnZq89RBZ0H9V88", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"033FrkHa1Dv5TE0eMjHa1KabHH1FrkHF\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 16:15:43.523	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "操作成功", "data": {"id":0,"user_name":"超"}}
+[RZ-WORK-FLOW]2023/03/05 - 16:40:24.134	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/05 - 16:40:33.791	[34minfo[0m	register table success
+[RZ-WORK-FLOW]2023/03/05 - 16:40:33.792	[34minfo[0m	init table data success
+[RZ-WORK-FLOW]2023/03/05 - 16:40:33.793	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/05 - 16:40:33.793	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/05 - 16:40:33.794	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/05 - 16:40:33.809	[34minfo[0m	server run success on	{"address": ":8888"}
+[RZ-WORK-FLOW]2023/03/05 - 16:40:36.667	[34minfo[0m	/api/wx/login	{"requestId": "PSrKvjwCNgWh1ASyuaJaG", "status": 200, "method": "POST", "path": "/api/wx/login", "query": "", "body": "{\"avatar_url\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/GyEw4swz41aBY2D9mYBF2Gso6RPRL46zUxO4F6ANrqr9FEcxxzySdznVWG1E5qNKckbNibYHbaHQ40u9rhtN6xQ/132\",\"js_code\":\"0131k70004ZHyP1X8X2000mjO941k70q\",\"nick_name\":\"超\"}", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0}
+[RZ-WORK-FLOW]2023/03/05 - 16:40:37.307	[34minfo[0m	/api/wx/login	{"code": 0, "msg": "登录成功", "data": {"expiresAt":1678610437000,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVVUlEIjoiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiwiSUQiOjEsIlVzZXJuYW1lIjoi6LaFIiwiQnVmZmVyVGltZSI6ODY0MDAsIkF1dGhvcml0eUlkIjowLCJleHAiOjE2Nzg2MTA0MzcsImlzcyI6ImdzZFBsdXMiLCJuYmYiOjE2NzgwMDQ2Mzd9._LLwBwEdDSiqqtydLxqJbQbFH73UDQp37mrJBy_uMmY","user":{"id":1,"user_name":"超"}}}
+[RZ-WORK-FLOW]2023/03/05 - 16:40:37.532	[34minfo[0m	/api/profile-page/	{"requestId": "sJh1McPCkEqTfjIusSS-Y", "status": 404, "method": "GET", "path": "/api/profile-page/", "query": "{}", "body": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.06.2301160 MicroMessenger/8.0.5 Language/zh_CN webview/", "errors": "", "cost": 0.0005745}
+[RZ-WORK-FLOW]2023/03/05 - 16:40:37.533	[34minfo[0m	/api/profile-page/	{"code": 0, "msg": "", "data": null}

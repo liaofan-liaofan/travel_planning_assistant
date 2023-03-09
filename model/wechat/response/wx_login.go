@@ -1,5 +1,9 @@
 package response
 
+import (
+	"project/model/wechat"
+)
+
 // LoginData 返回用户登录详细列表
 type LoginData struct {
 	Token string    `json:"token" `
@@ -8,7 +12,6 @@ type LoginData struct {
 
 type LoginUser struct {
 	Id        int64  `json:"id" binding:"required"`         // 用户id
-	LibraryId int64  `json:"library_id" binding:"required"` // 图书馆id
 	NickName  string `json:"nick_name" binding:"required"`  // 用户昵称
 	AvatarUrl string `json:"avatar_url" binding:"required"` // 用户头像
 }
@@ -21,7 +24,8 @@ type WXLoginResp struct {
 	ErrMsg     string `json:"errmsg"`
 }
 
-type UserInfo struct {
-	Id       int64  `json:"id" binding:"required"`        // 用户id
-	UserName string `json:"user_name" binding:"required"` // 用户昵称
+type LoginResponse struct {
+	User      wechat.UserInfo `json:"user"`
+	Token     string          `json:"token"`
+	ExpiresAt int64           `json:"expiresAt"`
 }
