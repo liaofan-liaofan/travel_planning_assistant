@@ -1,0 +1,6 @@
+[RZ-WORK-FLOW]2023/03/28 - 11:45:07.986	[31merror[0m	redis connect ping failed, err:	{"err": "dial tcp [::1]:6379: connectex: No connection could be made because the target machine actively refused it."}
+[RZ-WORK-FLOW]2023/03/28 - 11:56:42.310	[34minfo[0m	redis connect ping response:	{"pong": "PONG"}
+[RZ-WORK-FLOW]2023/03/28 - 11:56:42.888	[34minfo[0m	use middleware logger
+[RZ-WORK-FLOW]2023/03/28 - 11:56:42.888	[34minfo[0m	use middleware cors
+[RZ-WORK-FLOW]2023/03/28 - 11:56:42.889	[34minfo[0m	register swagger handler
+[RZ-WORK-FLOW]2023/03/28 - 11:56:42.905	[34minfo[0m	server run success on	{"address": ":8888"}
