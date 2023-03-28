@@ -33,5 +33,6 @@ func main() {
 			_ = db.Close()
 		}(db)
 	}
+	
 	core.RunWindowsServer()
 }
