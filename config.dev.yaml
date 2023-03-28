@@ -21,8 +21,8 @@ zap:
 # redis configuration
 redis:
   db: 1
-  addr: '8.142.189.85:6379'
-  password: '123456'
+  addr: '119.91.229.227:6379'
+  password: 'lc123456'
 
 # email configuration
 email:
@@ -53,15 +53,21 @@ captcha:
 
 # mysql connect configuration
 mysql:
-  path: '127.0.0.1:3306'
+  path: '119.91.229.227:3306'
   config: 'charset=utf8mb4&parseTime=True&loc=Local'
-  db-name: 'gosword'
+  db-name: 'travel_planning_assistant'
   username: 'root'
-  password: ''
+  password: 'lc123456'
   max-idle-conns: 10
   max-open-conns: 100
   log-mode: 'debug'
   log-zap: false
+
+# wxlogin connect configuration
+wxlogin:
+  grantype: 'authorization_code'
+  appid: 'wx7b42cbdfcfe66345'
+  secret: '596e3a16c9994152071905a479db7bb6'
 
 # local configuration
 local:
@@ -86,12 +92,12 @@ autocode:
 
 # qiniu configuration
 qiniu:
-  zone: 'ZoneHuanan'
-  bucket: 'ruanzhu-workflow'
-  img-path: 'r9qsta3s9.hn-bkt.clouddn.com'
+  zone: ''
+  bucket: ''
+  img-path: ''
   use-https: false
-  access-key: 'kxtFkOLoWc7NOeUeH4U8vburLbrB_yZMkmVAnpAc'
-  secret-key: 'tUlVBk7EBHpHzWVKdp_3IAEh0c77yBzAYPD7xmq7'
+  access-key: ''
+  secret-key: ''
   use-cdn-domains: false
 
 # excel configuration

@@ -21,8 +21,8 @@ zap:
 # redis configuration
 redis:
   db: 1
-  addr: ''
-  password: ''
+  addr: '119.91.229.227:6379'
+  password: 'lc123456'
 
 # email configuration
 email:
@@ -53,11 +53,11 @@ captcha:
 
 # mysql connect configuration
 mysql:
-  path: ''
-  config: ''
-  db-name: ''
-  username: ''
-  password: ''
+  path: '119.91.229.227:3306'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  db-name: 'travel_planning_assistant'
+  username: 'root'
+  password: 'lc123456'
   max-idle-conns: 10
   max-open-conns: 100
   log-mode: 'debug'
@@ -65,9 +65,9 @@ mysql:
 
 # wxlogin connect configuration
 wxlogin:
-  grantype: ''
-  appid: ''
-  secret: ''
+  grantype: 'authorization_code'
+  appid: 'wx7b42cbdfcfe66345'
+  secret: '596e3a16c9994152071905a479db7bb6'
 
 # local configuration
 local:
